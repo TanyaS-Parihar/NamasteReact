@@ -1,7 +1,7 @@
 const heading = React.createElement(
   "h1",
-  { id: "heloop", className: "fshdkjshfd" },
-  "hello giys chai pekr jna"
+  { id: "helloo", className: "fall" },
+  "hello !! "
 );
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -18,12 +18,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const header = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "mera nam chunchunchu"),
-    React.createElement("h2", {}, "rat chndni me aur tu"),
+    React.createElement("h1", {}, " Miss tuntun"),
+    React.createElement("h2", {}, "goes to Palampur"),
   ]),
   React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", {}, "mera nam chunchunchu"),
-    React.createElement("h2", {}, "rat chndni me aur tu"),
+    React.createElement("h1", {}, "Miss MunMun"),
+    React.createElement("h2", {}, "goes to Shaljampur"),
   ]),
 ]);
 root.render(header);
