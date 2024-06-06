@@ -1,0 +1,37 @@
+#main {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+#body #inp {
+  height: 20px;
+  width: 300px;
+  background-color: rgba(199, 184, 16, 0.324);
+}
+#card .image {
+  height: 150px;
+  width: 120px;
+  margin: auto;
+  display: block;
+}
+#card {
+  padding: 20px 20px;
+  margin: 30px;
+  width: 200px;
+  background-color: rgba(255, 192, 203, 0.608);
+  border: 2px solid black;
+}
+#card:hover {
+  border: 3px solid black;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+h3 {
+  text-align: center;
+}
